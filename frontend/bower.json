@@ -1,0 +1,20 @@
+{
+  "name": "frontend",
+  "description": "Small description for frontend goes here",
+  "main": "",
+  "authors": [
+    "Kiffin Gish <kiffin.gish@planet.nl>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "moment": "^2.18.1"
+  }
+}
