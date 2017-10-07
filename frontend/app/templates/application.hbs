@@ -3,17 +3,17 @@
     <nav>
       <ul class="nav nav-pills float-right">
         <li class="nav-item">
-          <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+          {{#link-to "index" class="nav-link"}}Home{{/link-to}}
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
+          {{#link-to "about" class="nav-link"}}About{{/link-to}}
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
+          {{#link-to "contact" class="nav-link"}}Contact{{/link-to}}
         </li>
       </ul>
     </nav>
-    <h3 class="text-muted">MyMuzeeum</h3>
+    <h3 class="text-muted">{{fa-icon "university"}} MyMuzeeum</h3>
   </div>
 
   {{outlet}}
